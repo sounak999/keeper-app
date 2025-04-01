@@ -1,10 +1,14 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import Header from './Header'
+import Note from './Note'
+import Footer from './Footer'
 
 function App() {
     return (
         <div>
-            Hello World!
+            <Header />
+            <Note />
+            <Footer />
         </div>
     )
 }
